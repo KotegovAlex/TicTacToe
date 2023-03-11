@@ -1,3 +1,5 @@
+from pathlib import Path
+
 GAME_TITLE = 'Tic-Tac-Toe Game'
 
 RULES_TITLE = 'Правила игры'
@@ -22,4 +24,10 @@ CROSS_WIN = 'Победил КРЕСТИК!'
 
 ZERO_WIN = 'Победил НОЛИК!'
 
-NO_ONE = 'НИЧЬЯ!'
+NO_ONE = 'Игра окончена, НИЧЬЯ!'
+
+WINDOW_WIDTH = 550
+
+WINDOW_HEIGHT = 550
+
+BACK_IMG_PATH = Path(r"content\tic_tac_back.png")
